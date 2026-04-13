@@ -22,7 +22,7 @@ export const procesarEnvioCorreo = async (email, tipo) => {
 
   const mensaje = {
     to: email,
-    from: "tutienda@email.com",
+    from: "carlosmariopatinoramirez@email.com",
     subject: contenido.subject,
     text: contenido.text,
   };
